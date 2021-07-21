@@ -6,5 +6,5 @@ module.exports = {
     purge: [
         join(__dirname, '**/*.{js,ts,jsx,tsx}'),
         ...createGlobPatternsForDependencies(__dirname),
-    ]
+    ],
 };
